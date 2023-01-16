@@ -27,10 +27,10 @@ function createGrid(x, y) {
       cell.className = 'cell';
       cell.style.width = `${cellSize}px`;
       cell.style.height = `${cellSize}px`;
-      cells = document.querySelectorAll('.cell');
       container.appendChild(cell);
     }
   }
+  cells = document.querySelectorAll('.cell');
 }
 
 function createRandomColor() {
